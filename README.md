@@ -1,7 +1,3 @@
-
-Here’s a sample `README.md` file for the Apple iOS Message App.
-
-```markdown
 # iOS Message App
 
 This is an iOS application developed with Swift and SwiftUI, designed to fetch and display personalized messages based on user data. The app retrieves data from several API endpoints, including a personality API, messages API, and acceptance API, and dynamically displays relevant messages to users.
