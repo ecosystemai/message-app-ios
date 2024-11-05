@@ -86,7 +86,5 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-For issues or suggestions, please open an issue in this repository or contact [your-email@example.com](mailto:your-email@example.com).
+For issues or suggestions, please open an issue in this repository or contact [amy@ecosystem.ai](mailto:amy@ecosystem.ai).
 ```
-
-This `README.md` covers the app’s main features, setup, configuration, usage, and troubleshooting. Adjust any specific details, such as URLs or test descriptions, based on your actual implementation.
