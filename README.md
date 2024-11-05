@@ -23,7 +23,7 @@ This is an iOS application developed with Swift and SwiftUI, designed to fetch a
    ```
 2. Open the project in Xcode.
    ```bash
-   open ios-message-app/MessageApp.xcodeproj
+   open message-app-ios/MessageApp.xcodeproj
    ```
 3. Configure the API URLs:
    - In `SettingsView.swift`, update the default URLs for the `messagesApiUrl`, `personalityApiUrl`, and `acceptanceApiUrl` to match your server's configuration. These URLs can also be modified within the app’s Settings section.
