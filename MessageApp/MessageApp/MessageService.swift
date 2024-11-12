@@ -11,13 +11,13 @@ class MessageService {
     static let shared = MessageService()
 
     private var messagesApiUrl: URL {
-        URL(string: UserDefaults.standard.string(forKey: SettingsKeys.messagesApiUrl) ?? "https://customerruntime8.ecosystem.ai/invocations")!
+        URL(string: UserDefaults.standard.string(forKey: SettingsKeys.messagesApiUrl) ?? "https://bankruntime8.ecosystem.ai/invocations")!
     }
     private var personalityApiUrl: URL {
-        URL(string: UserDefaults.standard.string(forKey: SettingsKeys.personalityApiUrl) ?? "https://customerruntime2.ecosystem.ai/invocations")!
+        URL(string: UserDefaults.standard.string(forKey: SettingsKeys.personalityApiUrl) ?? "https://bankruntime2.ecosystem.ai/invocations")!
     }
     private var acceptanceApiUrl: URL {
-        URL(string: UserDefaults.standard.string(forKey: SettingsKeys.acceptanceApiUrl) ?? "https://customerruntime8.ecosystem.ai/response")!
+        URL(string: UserDefaults.standard.string(forKey: SettingsKeys.acceptanceApiUrl) ?? "https://bankruntime8.ecosystem.ai/response")!
     }
 
     func fetchPersonality(customerNumber: String, completion: @escaping (Result<String, Error>) -> Void) {
